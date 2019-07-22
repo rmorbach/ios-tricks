@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView?.dataSource = self
-        //tableView?.tableFooterView = UIView(frame: .zero)
+        tableView?.tableFooterView = UIView(frame: .zero)
     }
 
 }
