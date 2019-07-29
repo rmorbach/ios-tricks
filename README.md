@@ -16,7 +16,7 @@ All UI elements will be placed in the `container-view`. `scroll-view` should hav
 
 Notice that, besides having the "regular" constraints to it's parent, `container-view` also defines two additional constraints: `equals width` and `equals height` to `scroll-view`. This is important and it is what will make the content scrolling when necessary. However, to not generate any constraints conflicts in runtime, the `equals height` constraint must have a very low priority, such as `250`.
 
-That's it! The elements can now be placed on the `container-view` as usual. To make the content scroll when it exceeds the screen height dimensions, you should place a `bottom space` constraint of the last element to it's super view, in this case, the `container-view`. The sample can be found in `[src](/scr/iOSTips)` folder.
+That's it! The elements can now be placed on the `container-view` as usual. To make the content scroll when it exceeds the screen height dimensions, you should place a `bottom space` constraint of the last element to it's super view, in this case, the `container-view`. The sample can be found in `[src`](/scr/iOSTips) folder.
 
 
 # UITableView separator
